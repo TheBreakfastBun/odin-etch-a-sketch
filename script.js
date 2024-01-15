@@ -42,10 +42,11 @@ btnGrid.addEventListener('click', () => {
                 yDiv.style = "border: 1px solid white; flex: auto;";
                 div.appendChild(yDiv);
                 yDiv.addEventListener('mouseover', () => {
-                    yDiv.style = "border: 1px solid white; flex: auto; background-color: white;"
+                    yDiv.style = "border: 1px solid white; flex: auto; background-color: rgb(" + Math.floor(Math.random() * 256).toString() + ", " + Math.floor(Math.random() * 256).toString() + ", " + Math.floor(Math.random() * 256).toString() + ");";
                 })
             }
         }
 })
 
 
+console.log(Math.floor(Math.random() * 256));
