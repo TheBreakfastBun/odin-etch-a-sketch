@@ -34,6 +34,8 @@ function removeAllChildNodes(parent) {
     }
 }
 
+
+//Grid change Function
 btnGrid.addEventListener('click', () => {
     removeAllChildNodes(container);
 
