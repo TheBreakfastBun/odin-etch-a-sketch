@@ -11,5 +11,8 @@ for (let x = 0; x < 16; ++x){
         const yDiv = document.createElement('div');
         yDiv.style = "border: 1px solid white; flex: auto;";
         div.appendChild(yDiv);
+        yDiv.addEventListener('mouseover', () => {
+            yDiv.style = "border: 1px solid white; flex: auto; background-color: white;"
+        })
     }
 }
